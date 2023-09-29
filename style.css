@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -30,7 +30,7 @@ h6 {
 
 p {
     font-size: 16px;
-    color: #465b52;
+    color: #222;
     margin: 15px 0 20px 0;
 }
 
@@ -53,6 +53,10 @@ body {
     padding: 20px 80px;
     background-color: #f4dff2;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
 }
 
 #navbar {
@@ -92,5 +96,49 @@ body {
 }
 
 #hero {
-    background-image: url(img/alex-sheldon-DsP4ywFxVqQ-unsplash.jpg);
+    background-image: url(img/hero\ model.jpg);
+    background-color: #f4dff2;
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#hero h4 {
+    padding-bottom: 15px;
+    color: whitesmoke;
+    font-weight: 900;
+    -webkit-text-stroke-color: #f860be;
+    -webkit-text-stroke-width: .5px;
+}
+
+#hero h1 {
+    padding-bottom: 15px;
+    color: #f860be;
+}
+
+#hero h2 {
+    color: whitesmoke;
+    -webkit-text-stroke-color: #f860be;
+    -webkit-text-stroke-width: .5px;
+}
+
+#hero p {
+    color: #f860be;
+}
+
+#hero button {
+    background-image: url(img/monster\ fangs\ button\ 2.png);
+    background-color: transparent;
+    border: 0;
+    padding: 12px 34px 12px 34px;
+    font-family: 'Creepster', cursive;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 500;
 }
