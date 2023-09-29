@@ -115,21 +115,25 @@ body {
     font-weight: 900;
     -webkit-text-stroke-color: #f860be;
     -webkit-text-stroke-width: .5px;
+    font-family: 'Creepster', cursive;
 }
 
 #hero h1 {
     padding-bottom: 15px;
     color: #f860be;
+    font-family: 'Creepster', cursive;
 }
 
 #hero h2 {
     color: whitesmoke;
     -webkit-text-stroke-color: #f860be;
     -webkit-text-stroke-width: .5px;
+    font-family: 'Creepster', cursive;
 }
 
 #hero p {
     color: #f860be;
+    font-family: 'Creepster', cursive;
 }
 
 #hero button {
