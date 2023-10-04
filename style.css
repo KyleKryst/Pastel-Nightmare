@@ -54,6 +54,19 @@ button.normal {
     transition: 0.2s;
 }
 
+button.black {
+    font-family: 'Pirata One', cursive;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 20px;
+    color: #1a1a1a;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid #1a1a1a;
+    outline: none;
+    transition: 0.2s;
+}
+
 body {
     width: 100%;
 }
@@ -332,3 +345,57 @@ body {
 #banner button:hover {
     background: #ff7518;
 }
+
+#sm-banner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#sm-banner .banner-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url(img/banners/sm-banner.png);
+    min-width: 580px;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+}
+
+#sm-banner .banner-box-2 {
+    background-image: url(img/banners/sm-banner-2.png);
+}
+
+#sm-banner h4 {
+    color: #f860be;
+    font-family: 'Creepster', cursive;
+    font-size: 32px;
+    -webkit-text-stroke: #1a1a1a;
+    -webkit-text-stroke-width: .6px;
+}
+
+#sm-banner h2 {
+    color: #f860be;
+    font-family: 'Creepster', cursive;
+    font-size: 44px;
+    font-weight: 800;
+    -webkit-text-stroke: #1a1a1a;
+    -webkit-text-stroke-width: .6px;
+}
+
+#sm-banner span {
+    color: #1a1a1a;
+    font-family: 'Pirata One', cursive;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+#sm-banner .banner-box:hover button{
+    background: #f860be;
+    border: 1px solid #f860be;
+}
+
