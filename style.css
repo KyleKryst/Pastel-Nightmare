@@ -399,6 +399,13 @@ body {
     border: 1px solid #f860be;
 }
 
+#banner3 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 80px;
+}
+
 #banner3 .banner-box {
     display: flex;
     flex-direction: column;
@@ -413,6 +420,14 @@ body {
     margin-bottom: 20px;
 }
 
+#banner3 .banner-box-2 {
+    background-image: url(img/banners/tiny-banner-2.png);
+}
+
+#banner3 .banner-box-3 {
+    background-image: url(img/banners/tiny-banner-3.png);
+}
+
 #banner3 h2 {
     color: #f860be;
     font-family: 'Creepster', cursive;
@@ -424,14 +439,8 @@ body {
 
 #banner3 h3 {
     color: #1a1a1a;
-    font-family: 'Pirata One', cursive;
-    font-size: 32px;
-}
-
-#banner3 h3 span {
-    color: #f860be;
     font-family: 'Creepster', cursive;
     font-size: 32px;
-    -webkit-text-stroke: #1a1a1a;
-    -webkit-text-stroke-width: .6px;
+    -webkit-text-stroke: #f860be;
+    -webkit-text-stroke-width: .3px;
 }
