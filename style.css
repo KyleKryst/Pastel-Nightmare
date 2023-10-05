@@ -399,3 +399,39 @@ body {
     border: 1px solid #f860be;
 }
 
+#banner3 .banner-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url(img/banners/tiny-banner-1.png);
+    min-width: 30%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#banner3 h2 {
+    color: #f860be;
+    font-family: 'Creepster', cursive;
+    font-size: 44px;
+    font-weight: 800;
+    -webkit-text-stroke: #1a1a1a;
+    -webkit-text-stroke-width: .6px;
+}
+
+#banner3 h3 {
+    color: #1a1a1a;
+    font-family: 'Pirata One', cursive;
+    font-size: 32px;
+}
+
+#banner3 h3 span {
+    color: #f860be;
+    font-family: 'Creepster', cursive;
+    font-size: 32px;
+    -webkit-text-stroke: #1a1a1a;
+    -webkit-text-stroke-width: .6px;
+}
