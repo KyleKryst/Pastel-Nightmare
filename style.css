@@ -770,15 +770,25 @@ footer .copyright {
     }
 
     #banner h4 {
-        font-size: 32px;
+        font-size: 28px;
     }
 
     #banner h2 {
-        font-size: 36px;
+        font-size: 32px;
     }
 
     #sm-banner .banner-box {
         height: 40vh;
+    }
+
+    #sm-banner h2 {
+        font-size: 42px;
+        line-height: 1;
+    }
+
+    #sm-banner h4 {
+        font-size: 32px;
+        line-height: 1;
     }
 
     #sm-banner span {
