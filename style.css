@@ -613,6 +613,24 @@ footer .copyright {
     -webkit-text-stroke-width: 2px;
 }
 
+#pagination {
+    text-align: center;
+}
+
+#pagination a {
+    text-decoration: none;
+    background-color: #f860be;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: #1a1a1a;
+    font-weight: 600;
+}
+
+#pagination a i {
+font-size: 16px;
+font-weight: 600;
+}
+
 @media (min-width: 1336px) {
 
     #sm-banner .banner-box {
