@@ -13,7 +13,7 @@
 <body>
 
     <section id="header">
-        <a href="#"><img src="img/logo/logo 2.png" class="logo" alt="website logo"></a>
+        <a href="index.html"><img src="img/logo/logo 2.png" class="logo" alt="website logo"></a>
 
         <div>
             <ul id="navbar">
@@ -35,7 +35,7 @@
 
     <section id="pro-details" class="section-p1">
         <div class="single-pro-image">
-            <img src="img/products/f1.png" width="100%" class="main-img" alt="">
+            <img src="img/products/f1.png" width="100%" id="main-img" alt="">
 
             <div class="small-img-group">
                 <div class="small-img-col">
@@ -74,6 +74,77 @@
                 <li>Dyed-to-match drawstrings</li>
                 <li>Dropped shoulder cut</li>
                 <li>Cropped body with a raw hem</li> </ul></span>
+        </div>
+    </section>
+
+    <section id="product1" class="section-p1">
+        <h2>Featured Products</h2>
+        <p>Home Decor And Accessories Now Available</p>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="img/products/n1.png" alt="flag">
+                <div class="description">
+                    <span>Printful</span>
+                    <h5>Pastel Nightmare <br> Flag</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$35</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart" style="color: #f860be;"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/n2.png" alt="backpack">
+                <div class="description">
+                    <span>Printful</span>
+                    <h5>Pastel Fangs <br> Backpack</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$60</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart" style="color: #f860be;"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/n3.png" alt="throw blanket">
+                <div class="description">
+                    <span>Printful</span>
+                    <h5>Pastel Nightmare <br> 60" x 80" Throw Blanket</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$55</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart" style="color: #f860be;"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img/products/n4.png" alt="laptop sleeve">
+                <div class="description">
+                    <span>Printful</span>
+                    <h5>Pastel Nightmare <br> 15" Laptop Sleeve</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$35</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart" style="color: #f860be;"></i></a>
+            </div>
         </div>
     </section>
 
@@ -142,6 +213,24 @@
         </div>
 
     </footer>
+
+    <script>
+        var mainImg = document.getElementById("main-img");
+        var smallImg = document.getElementsByClassName("small-img");
+
+        smallImg[0].onclick = function(){
+            mainImg.src = smallImg[0].src;
+        }
+        smallImg[1].onclick = function(){
+            mainImg.src = smallImg[1].src;
+        }
+        smallImg[2].onclick = function(){
+            mainImg.src = smallImg[2].src;
+        }
+        smallImg[3].onclick = function(){
+            mainImg.src = smallImg[3].src;
+        }
+    </script>
 
     <script src="script.js"></script>
 </body>
