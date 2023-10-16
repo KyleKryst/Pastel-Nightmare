@@ -339,7 +339,6 @@ body {
 #banner h4 {
     color: #f4dff2;
     font-family: 'Creepster', cursive;
-    font-size: 36px;
     -webkit-text-stroke: #1a1a1a;
     -webkit-text-stroke-width: .6px;
 }
@@ -347,14 +346,13 @@ body {
 #banner h2 {
     color: #f4dff2;
     font-family: 'Creepster', cursive;
-    font-size: 48px;
     -webkit-text-stroke: #1a1a1a;
     -webkit-text-stroke-width: .6px;
 }
 
 #banner h2 span {
     color: #ff7518;
-    font-family: 'Butcherman', cursive;
+    font-family: 'Creepster', cursive;
 }
 
 #banner button {
@@ -392,7 +390,6 @@ body {
 #sm-banner h4 {
     color: #f860be;
     font-family: 'Creepster', cursive;
-    font-size: 36px;
     -webkit-text-stroke: #1a1a1a;
     -webkit-text-stroke-width: .6px;
 }
@@ -400,7 +397,6 @@ body {
 #sm-banner h2 {
     color: #f860be;
     font-family: 'Creepster', cursive;
-    font-size: 48px;
     font-weight: 800;
     -webkit-text-stroke: #1a1a1a;
     -webkit-text-stroke-width: .6px;
@@ -409,7 +405,6 @@ body {
 #sm-banner span {
     color: #1a1a1a;
     font-family: 'Pirata One', cursive;
-    font-size: 18px;
     font-weight: 500;
     padding-bottom: 15px;
 }
@@ -451,7 +446,6 @@ body {
 #banner3 h2 {
     color: #f860be;
     font-family: 'Creepster', cursive;
-    font-size: 40px;
     font-weight: 800;
     -webkit-text-stroke: #1a1a1a;
     -webkit-text-stroke-width: .6px;
@@ -460,7 +454,6 @@ body {
 #banner3 h3 {
     color: #1a1a1a;
     font-family: 'Creepster', cursive;
-    font-size: 28px;
     -webkit-text-stroke: #f860be;
     -webkit-text-stroke-width: .3px;
 }
@@ -957,6 +950,16 @@ marquee {
     color: #1a1a1a;
 }
 
+
+
+/* Cart Page */
+
+
+
+#page-header.cart-header {
+    background-image: url("img/banners/cart.png");
+}
+
 @media (min-width: 1336px) {
 
     #sm-banner .banner-box {
@@ -1040,19 +1043,23 @@ marquee {
     }
 
     #hero h4 {
-        font-size: 32px;
+        font-size: 24px;
+        line-height: 1;
     }
     
     #hero h1 {
-        font-size: 52px;
+        font-size: 44px;
+        line-height: 1;
     }
     
     #hero h2 {
-        font-size: 42px;
+        font-size: 34px;
+        line-height: 1;
     }
     
     #hero p {
-        font-size: 28px;
+        font-size: 20px;
+        line-height: 1;
     }
     
     #hero button {
@@ -1077,12 +1084,12 @@ marquee {
     }
 
     #banner {
-        height: 20vh;
+        height: 50vh;
     }
 
     #sm-banner .banner-box {
         min-width: 100%;
-        height: 30vh;
+        height: 69vh;
         margin-bottom: 30px;
     }
 
@@ -1091,7 +1098,12 @@ marquee {
     }
 
     #banner3 .banner-box {
-    width: 28%;
+        height: 45vh;
+        width: 28%;
+    }
+
+    #banner3 .banner-box h2 {
+        font-size: 36px;
     }
 
     #newsletter .form {
